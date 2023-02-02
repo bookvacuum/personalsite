@@ -15,20 +15,22 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <Image alt="image of me" className='pb-7' src={profile}></Image>
+   
+      <Image alt="image of me" className='items-center pb-7 sm:w-30 sm:mx-auto sm:max-w-lg' src={profile}></Image>
 
      <div className='pl-5 pr-5 text-center'> 
    
         <h1 className='mb-3 font-sans text-4xl italic'>Hi! I&apos;m Sunwoo</h1> 
-        <p className='font-sans'>My name means giver of valuables</p> 
-        <p className='font-sans'>I&apos;m a full stack developer currently working on building a more authentic web</p>
-        <p className='font-sans'>I graduated from </p>
-
-
-   <Potato/>
+        <p className='font-sans'>My name means giver of valuables.</p> 
+        <p className='font-sans'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
+        <p className='font-sans'>I am a soup girl.</p>
+  
       </div>
-     
+      <Potato/>
+      
+  <div className='items-center w-full w-30'>
+
+   </div>
       
     </>
   )
