@@ -3,6 +3,7 @@ import Image from 'next/image';
 import profile from '/public/profilepic.jpg';
 import dynamic from 'next/dynamic';
 import Potato from '/components/potato';
+import styles from '../styles/Home.module.css'
 
 // const Potato = dynamic(() => import('/components/potato'), { ssr: false });
 
@@ -25,7 +26,7 @@ export default function Home() {
         <p className='font-sans'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
         <p className='font-sans'>I am a soup girl.</p>
   <Potato/>
-          <p className='pb-3 font-sans'>Some journeys</p>
+          <p className='pb-3 font-sans'>Read about my journeys</p>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto mb-1">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3" />
 </svg>
