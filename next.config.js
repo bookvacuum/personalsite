@@ -3,4 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.glb/,
+      type: 'asset/resource',
+    })
+
+    return config
+  },
+}
