@@ -49,35 +49,47 @@ export default function Home() {
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-1 mx-auto">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3" />
 </svg>
+</div>
 
+  <div className='pt-4 ml-8 mr-8 text-center sm:ml-24 sm:mr-24'>
 
-  <ul className='pt-4 ml-5 mr-5 list-none sm:ml-20 sm:mr-20'>
-  <li>
-<span className='p-1 text-lg rounded bg-sky-200 '>philosophy</span> <span>➡</span> <span className='p-1 text-lg bg-pink-200 rounded'>symsys</span>
-<p className='pt-3'>I studied philosophy at Stanford. I chose it because I liked it and was reasonably good at it.
-I decided against philosophy academia, which naturally made me consider law school. I was able to get accepted to Harvard Law School <Link href='https://hls.harvard.edu/why-jdp/' className='underline underline-offset-2 text-cyan-700'>as a junior</Link>  in college.
+<div className='text-center relative -left-[15px]'>
+<span className='p-1 mr-1 text-lg rounded bg-sky-200'>philosophy</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-pink-200 rounded'>symsys</span>
+</div>
+
+<p className='pt-3'>I was a philosophy nerd at Stanford who wanted to go to law school. I was able to get accepted to Harvard Law School <Link href='https://hls.harvard.edu/why-jdp/' className='underline underline-offset-2 text-cyan-700'>as a junior</Link>  in college.
 This allowed me to take more risks and explore anything I found remotely interesting.</p>
-<p>After building a <Link href='/' className='underline underline-offset-2 text-cyan-700'>social network for queer womxn at Stanford </Link>, a project that went viral &#40;then crashed&#41;, I was hooked. I decided I wanted to work with like-minded people to solve problems with technology.
+<p>After building a <Link href='/' className='underline underline-offset-2 text-cyan-700'>social network for queer womxn at Stanford </Link>, a project that went viral &#40;then crashed&#41;, I discovered I loved working with like-minded people to solve problems with technology.
 I soon realized that nontechnical majors were treated like second class citizens in the startup space. I decided to build a strong technical foundation that can complement my soft skills.</p>
 <p>Luckily, <Link href='http://www.symsyssociety.org/whatissymsys' className='underline underline-offset-2 text-cyan-700'>Stanford&#39; Symbolic Systems Program</Link> was perfect for this. I finished my masters in Symbolic Systems in 2021, focusing on artificial intelligence and consciousness.</p>
-</li>
-<li>
-<span className='p-1 text-lg bg-pink-200 rounded'>symsys</span> <span>➡</span> <span className='p-1 text-lg rounded bg-emerald-200'>founder</span>
-<p className='pt-2'>I studied philosophy at Stanford. I</p>
-</li>
 
-<li>
-<span className='p-1 text-lg rounded bg-emerald-200 '>first time founder</span> <span>➡</span> <span className='p-1 text-lg bg-pink-200 rounded'>second time founder</span>
-<p className='pt-2'>I studied philosophy at Stanford.</p>
-</li>
 
+<div className='pt-4 text-center relative left-[3px]'>
+<span className='p-1 mr-1 text-lg bg-pink-200 rounded'>symsys</span> <span>➡</span> <span className='p-1 ml-1 text-lg rounded bg-emerald-200'>founder</span>
+</div>
+
+<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
+
+<p>In 2022 I cofounded and served as the CEO of Cromatic, a company building software for outsourcing R&D in the lifesciences. During my time as CEO it raised 1.2M pre-seed round with top investors like Lux Capital.</p>
 
 
 
-</ul>
+<div className='pt-4 text-center relative left-[3px]'>
+<span className='p-1 mr-1 text-lg rounded bg-emerald-200'>founder</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-indigo-200 rounded'>second time founder</span>
+</div>
+
+<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
+
+<p>In 2022 I cofounded and served as the CEO of Cromatic, a company building software for outsourcing R&D in the lifesciences. During my time as CEO it raised 1.2M pre-seed round with top investors like Lux Capital.</p>
+
+
+
+
 
 
 </div>
+
+
       
 
 
