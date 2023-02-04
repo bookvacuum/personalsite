@@ -80,7 +80,7 @@ I soon realized that nontechnical majors were treated like second class citizens
 
 <p className='pt-3'>Cromatic is still going on, but I&#39;ve left and am now working with a team on the problem of scaling authenticity on the web.</p>
 <p>Our team is living in a house in SF with a cat named Yuri. </p>
-<Image alt="picture of yuri" src={yuri} className='mx-auto rounded'></Image>
+<Image alt="picture of yuri" src={yuri} className='pb-2 mx-auto rounded'></Image>
 <p className='font-sans text-sm italic font-light'>Pictured: Yuri is making it hard to finish this sent!@$af#$#rkgioeR90ef</p>
 
 
