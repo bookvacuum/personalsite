@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import Potato from '/components/potato';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
-
+import yuri from 'public/yuri.png';
 // const Potato = dynamic(() => import('/components/potato'), { ssr: false });
 
 export default function Home() {
@@ -68,7 +68,7 @@ I soon realized that nontechnical majors were treated like second class citizens
 <span className='p-1 mr-1 text-lg bg-pink-200 rounded'>symsys</span> <span>➡</span> <span className='p-1 ml-1 text-lg rounded bg-emerald-200'>founder</span>
 </div>
 
-<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
+<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link>, <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
 
 <p>In 2022 I cofounded and served as the CEO of Cromatic, a company building software for outsourcing R&D in the lifesciences. During my time as CEO it raised 1.2M pre-seed round with top investors like Lux Capital.</p>
 
@@ -78,9 +78,10 @@ I soon realized that nontechnical majors were treated like second class citizens
 <span className='p-1 mr-1 text-lg rounded bg-emerald-200'>founder</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-indigo-200 rounded'>second time founder</span>
 </div>
 
-<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
-
-<p>In 2022 I cofounded and served as the CEO of Cromatic, a company building software for outsourcing R&D in the lifesciences. During my time as CEO it raised 1.2M pre-seed round with top investors like Lux Capital.</p>
+<p className='pt-3'>Cromatic is still going on, but I&#39;ve left and am now working with a team on the problem of scaling authenticity on the web.</p>
+<p>Our team is living in a house in SF with a cat named Yuri. </p>
+<Image alt="picture of yuri" src={yuri} className='mx-auto rounded'></Image>
+<p className='font-sans text-sm italic font-light'>Pictured: Yuri is making it hard to finish this sent!@$af#$#rkgioeR90ef</p>
 
 
 
