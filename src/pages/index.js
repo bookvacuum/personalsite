@@ -74,17 +74,14 @@ I soon realized that nontechnical majors were treated like second class citizens
 
 
 
-<div className='pt-4 text-center relative left-[3px]'>
+<div className='pt-4 text-center relative left-[54px]'>
 <span className='p-1 mr-1 text-lg rounded bg-emerald-200'>founder</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-indigo-200 rounded'>second time founder</span>
 </div>
 
 <p className='pt-3'>Cromatic is still going on, but I&#39;ve left and am now working with a team on the problem of scaling authenticity on the web.</p>
 <p>Our team is living in a house in SF with a cat named Yuri. </p>
-<Image alt="picture of yuri" src={yuri} className='pb-2 mx-auto rounded'></Image>
-<p className='font-sans text-sm italic font-light'>Pictured: Yuri is making it hard to finish this sent!@$af#$#rkgioeR90ef</p>
-
-
-
+<Image alt="picture of yuri" src={yuri} className='pb-3 mx-auto rounded'></Image>
+<p className='font-sans text-sm italic font-light'>Pictured: Yuri making it hard to finish this sen!@$af#$#rkgioeR90ef</p>
 
 
 
