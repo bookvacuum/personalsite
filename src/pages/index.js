@@ -23,10 +23,12 @@ export default function Home() {
      <div className='pl-5 pr-5 text-center'> 
    
         <h1 className='mb-3 font-sans text-4xl italic'>Hi! I&apos;m Sunwoo</h1> 
-        <p className='font-sans'>My name means giver of valuables.</p> 
-        <p className='font-sans'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
-        <p className='font-sans'>In my free time I like to cook hearty meals like this one.</p>
+        <p className='pb-0 font-sans'>My name means giver of valuables.</p> 
+        <p className='pb-0 font-sans'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
+        <p className='pb-0 -mb-5 font-sans'>In my free time I like to cook hearty meals like this one.</p>
+  <div className='relative -left-[2px]'>
   <Potato/>
+  </div>
           <p className='pb-3 font-sans'>Read about my journey</p>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto mb-1">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3" />
@@ -74,7 +76,7 @@ I soon realized that nontechnical majors were treated like second class citizens
 
 
 
-<div className='pt-4 text-center relative left-[54px]'>
+<div className='pt-4 text-center relative left-[10px]'>
 <span className='p-1 mr-1 text-lg rounded bg-emerald-200'>founder</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-indigo-200 rounded'>second time founder</span>
 </div>
 

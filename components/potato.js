@@ -3,7 +3,7 @@ import Cat from '/public/cat2.glb';
 
 const loading = () => {
   return(
-    <p>loading</p>
+    <div className='p-5 bg-white'></div>
   )
 }
 
@@ -19,7 +19,6 @@ const Potato = () => {
     alt="A 3D model of ramen"
     shadow-intensity="0"
     auto-rotate
-    ar
   ></model-viewer>
   )
   }
