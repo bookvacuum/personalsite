@@ -67,7 +67,7 @@ export default function Home() {
 
 <p className='pt-3'>I was a philosophy nerd at Stanford who wanted to go to law school. I was able to get accepted to Harvard Law School <Link href='https://hls.harvard.edu/why-jdp/' className='underline underline-offset-2 text-cyan-700'>as a junior</Link>  in college.
 This allowed me to take more risks and explore anything I found remotely interesting.</p>
-<p>After building a <Link href='/' className='underline underline-offset-2 text-cyan-700'>social network for queer womxn at Stanford </Link>, a project that went viral &#40;then crashed&#41;, I discovered I loved working with like-minded people to solve problems with technology.
+<p>After building a <a href='/projects/#section' className='underline underline-offset-2 text-cyan-700'>social network for queer womxn at Stanford </a>, a project that went viral &#40;then crashed&#41;, I discovered I loved working with like-minded people to solve problems with technology.
 I soon realized that nontechnical majors were treated like second class citizens in the startup space. I decided to build a strong technical foundation that can complement my soft skills.</p>
 <p>Luckily, <Link href='http://www.symsyssociety.org/whatissymsys' className='underline underline-offset-2 text-cyan-700'>Stanford&#39; Symbolic Systems Program</Link> was perfect for this. I finished my masters in Symbolic Systems in 2021, focusing on artificial intelligence and consciousness.</p>
 

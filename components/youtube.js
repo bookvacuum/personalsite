@@ -23,7 +23,7 @@ extends React.Component {
   
     return (
       <div>
-        <YouTube videoId="9aFQSh_9MIs" className="flex justify-center"
+        <YouTube videoId="9aFQSh_9MIs" className="flex justify-center pt-3"
             opts={opts} onReady={this._onReady} />
       </div>
     );
