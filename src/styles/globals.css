@@ -8,6 +8,11 @@ model-viewer {
   width: 30%;
 }
 
+YoutubeVideo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 li {
   padding-bottom: 3rem;
 }

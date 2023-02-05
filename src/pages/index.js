@@ -6,10 +6,16 @@ import Potato from '/components/potato';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import yuri from 'public/yuri.png';
+import React from "react";
+
 // const Potato = dynamic(() => import('/components/potato'), { ssr: false });
 
 export default function Home() {
+
+  
   return (
+
+
     <>
       <Head>
         <title>Create Next App</title>
