@@ -11,7 +11,7 @@ export default function Layout({ children }) {
 
   useEffect(() => {
   const updateWindowDimensions = () => {
-    if(window.scrollY >= 100) {
+    if(window.scrollY >= 150) {
       setColorChange(true);
     } else {
       setColorChange(false);   
