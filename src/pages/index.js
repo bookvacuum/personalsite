@@ -65,8 +65,8 @@ export default function Home() {
 <span className='p-1 mr-1 text-lg rounded bg-sky-200'>philosophy</span> <span>➡</span> <span className='p-1 ml-1 text-lg bg-pink-200 rounded'>symsys</span>
 </div>
 
-<p className='pt-3'>I was a philosophy nerd at Stanford who wanted to go to law school. I was able to get accepted to Harvard Law School <Link href='https://hls.harvard.edu/why-jdp/' className='underline underline-offset-2 text-cyan-700'>as a junior</Link>  in college.
-This allowed me to take more risks and explore anything I found remotely interesting.</p>
+<p className='pt-3'>I was a philosophy nerd at Stanford who wanted to go to law school. But after I got into Harvard Law School <Link href='https://hls.harvard.edu/why-jdp/' className='underline underline-offset-2 text-cyan-700'>as a junior</Link> in college,
+I started to take more risks and explore anything I found interesting.</p>
 <p>After building a <a href='/projects/#section' className='underline underline-offset-2 text-cyan-700'>social network for queer womxn at Stanford </a>, a project that went viral &#40;then crashed&#41;, I discovered I loved working with like-minded people to solve problems with technology.
 I soon realized that nontechnical majors were treated like second class citizens in the startup space. I decided to build a strong technical foundation that can complement my soft skills.</p>
 <p>Luckily, <Link href='http://www.symsyssociety.org/whatissymsys' className='underline underline-offset-2 text-cyan-700'>Stanford&#39; Symbolic Systems Program</Link> was perfect for this. I finished my masters in Symbolic Systems in 2021, focusing on artificial intelligence and consciousness.</p>
@@ -76,7 +76,7 @@ I soon realized that nontechnical majors were treated like second class citizens
 <span className='p-1 mr-1 text-lg bg-pink-200 rounded'>symsys</span> <span>➡</span> <span className='p-1 ml-1 text-lg rounded bg-emerald-200'>founder</span>
 </div>
 
-<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link>, <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.uber.com/us/en/' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
+<p className='pt-3'>I was fortunate to get an operator&#39;s experience in engineering, product, b2b sales, marketing, and UX during my time at <Link href='https://www.neuro-cle.com/en' className='underline underline-offset-2 text-cyan-700'>Neurocle</Link>, <Link href='https://www.column.us/' className='underline underline-offset-2 text-cyan-700'>Column</Link> and <Link href='https://www.navercorp.com/en/naver/company' className='underline underline-offset-2 text-cyan-700'>Naver</Link> before starting my own company.</p>
 
 <p>In 2022 I cofounded and served as the CEO of Cromatic, a company building software for outsourcing R&D in the lifesciences. During my time as CEO it raised 1.2M pre-seed round with top investors like Lux Capital.</p>
 
