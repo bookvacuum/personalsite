@@ -22,8 +22,6 @@ import Link from 'next/link';
      <h3 className='pt-3 pb-1 font-bold'>AI Chatbot that answers developer questions</h3>
           <p className='pt-1 text-sm'>Built before the days of ChatGPT, available as a web app and slackbot. 
           In this demo, the bot answers questions about Python pandas and provides additional resources</p>
-
-
  <video src={require('/public/chatbot.mp4')} autoPlay={true} loop muted width={800}
       height={800} className={`mx-auto justify-center drop-shadow`}/>
 
@@ -32,8 +30,7 @@ import Link from 'next/link';
      <h3 className='pt-5 pb-1 font-bold'>Smart contract for ethSF</h3>
           <p className='pt-[2px] pb-3 text-sm'>GoFundMe for people quitting their jobs, powered by web3 wallet infrastructure. Automatically creates wallet for users. $1200 prize winner at ETHSF</p>
            <Link className='p-2 mb-3 rounded bg-violet-200 hover:bg-violet-500' href='https://meek-smakager-d79825.netlify.app/'>Try it on laptop</Link>
-
-          <Image src={quitnow} className = "w-[500px] mx-auto pt-3" alt="landing page of Quit Now"/>
+          <Image src={quitnow} className="w-[500px] mx-auto pt-3" alt="landing page of Quit Now"/>
 
 
 </li>
