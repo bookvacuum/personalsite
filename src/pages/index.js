@@ -28,10 +28,10 @@ export default function Home() {
 
      <div className='pl-5 pr-5 text-center'> 
    
-        <h1 className='mb-3 font-sans text-4xl italic'>Hi! I&apos;m Sunwoo</h1> 
-        <p className='pb-0 font-sans'>My name means giver of valuables.</p> 
-        <p className='pb-0 font-sans'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
-        <p className='pb-0 -mb-5 font-sans'>In my free time I like to cook hearty meals like this one.</p>
+        <h1 className='mb-3 text-4xl italic'>Hi! I&apos;m Sunwoo</h1> 
+        <p className='pb-0 '>My name means giver of valuables.</p> 
+        <p className='pb-0'>I&apos;m a full stack developer currently working on building a more authentic web.</p>
+        <p className='pb-0 -mb-5'>In my free time I like to cook hearty meals like this one.</p>
   <div className='relative -left-[2px]'>
   <Potato/>
   </div>
