@@ -11,7 +11,7 @@ import Link from 'next/link';
 
     return (
 <>
-        <div className='items-center min-h-screen px-2 mx-auto text-center bg-fuchsia-50 sm:px-5'>
+        <div className='items-center min-h-screen px-2 pb-40 mx-auto text-center bg-fuchsia-50 sm:px-5'>
             <h1 className='pt-10 pb-5 text-2xl'>Exciting things coming soon...</h1>
   <iframe src="https://giphy.com/embed/E6jscXfv3AkWQ" width="100%" height="100%" style={{position:"relative"}} class="giphy-embed" allowFullScreen></iframe>
 

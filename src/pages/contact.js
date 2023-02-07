@@ -5,7 +5,7 @@ export default function Contact() {
 
     return (
         <>
-        <div className="px-5 pt-10 mx-auto sm:px-40">
+        <div className="px-5 pt-10 pb-40 mx-auto sm:pb-60 sm:px-40">
            
             <p>Here are some things I get asked a lot about:</p>
             <div className='flex-wrap sm:w-3/4'>
@@ -31,8 +31,6 @@ export default function Contact() {
     <span className='underline underline-offset-2'>Lsunwoo0000@gmail.com</span>,
        <span> <Link className="underline underline-offset-2 text-cyan-700" href='https://twitter.com/SunwooLee__'>Twitter</Link></span>, or
        <span> <Link className="underline underline-offset-2 text-cyan-700" href='https://www.linkedin.com/in/sunwoo-lee-215a92126/'>Linkedin</Link></span></p>
-
-           
         </div>
         </>
 

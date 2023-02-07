@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Writings() {
   return (
     <>
-            <div className='items-center min-h-screen px-3 pt-10 mx-auto text-center bg-sky-50 sm:px-20'>
+            <div className='items-center min-h-screen px-3 pt-10 pb-40 mx-auto text-center bg-sky-50 sm:px-20'>
                 <p className="text-5xl">✍️</p>
 <p className='pb-10 font-bold'> I&apos;ve been writing on a wide range of topics, from techbio to political theory </p>
        
